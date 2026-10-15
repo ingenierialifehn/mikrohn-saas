@@ -112,7 +112,7 @@
 
             <!-- Acciones -->
             <div class="flex items-center gap-4">
-                <a href="#planes" class="hidden sm:inline-flex text-sm font-medium text-slate-300 hover:text-white px-3 py-2 transition-colors">
+                <a href="{{ route('login') }}" class="hidden sm:inline-flex text-sm font-medium text-slate-300 hover:text-white px-3 py-2 transition-colors">
                     <i class="fa-solid fa-lock mr-2 text-slate-400"></i> Acceso Clientes
                 </a>
                 <button onclick="openRegisterModal()" class="relative group overflow-hidden rounded-xl bg-gradient-to-r from-brand-500 to-indigoBrand-600 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-brand-500/25 hover:shadow-cyan-500/40 hover:scale-[1.02] active:scale-[0.98] transition-all">
